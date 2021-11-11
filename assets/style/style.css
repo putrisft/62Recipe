@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #f1f1f1;
+    color: #000;
+    width: 100% ;
+    border-bottom: 0.2px solid #B8020D;
+    line-height: 80px;
+    height: 80px;
+    font-size: 16px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10; 
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 35px;
+    background-color: #B8020D;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    float: left;
+    line-height: inherit;   
+}
+
+nav ul{
+    float: left;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px 30px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0px 20px;
+}
+
+nav li a:hover{
+    font-weight: bold;
+    color: #B8020D;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+#content{
+    color: black;
+    margin-top: 150px;
+    margin-right: 75px;
+    margin-bottom: 150px;
+    margin-left: 75px;
+    text-align: justify;
+}
+
+/* #### HOME #### */
+.homepage{
+    margin: -150px -75px;
+    padding: 150px 0px 140px 0px;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(http://www.travelweekly.com.au/wp-content/uploads/2018/06/BEST-RESTAURANTS-CANGGU.png);
+    background-size: cover;   
+}
+
+.content-one{
+    margin-left: 30%;
+}
+
+.content-one h1{
+    font-size: 75px;
+    font-style: normal;
+    text-align: center;
+    width: 510px;
+    letter-spacing: 3px;
+}
+
+#titik{
+    color: #B8020D;
+}
+
+.content-one p{
+    margin-top: 10px;
+    width: 510px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.search-box{
+    margin-top: 40px;
+}
+
+.search-txt{
+    background: white;
+    border-radius: 150px;
+    height: 40px;
+    width: 400px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+.button-search{
+    background: #B8020D;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 150px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+#pict-one{
+    margin-top: 30%;
+    margin-left: 175px;   
+}
+
+/* #### HISTORY #### */
+.card-history{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.container .card-history{
+    display: flex;
+}
+
+.flex-right p{
+    width: 500px;
+    margin-left: -5px;
+    text-indent: 2em;
+}
+
+.flex-left{
+    flex-grow: 1;
+    padding-left: 100px;
+}
+
+.flex-right{
+    flex-grow: 1;
+    padding-right: 100px;
+    padding-left: 0px;
+    align-self: center;
+}
+
+.container h2{
+    position: absolute;
+    left: 27%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.flex-left , .flex-right{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.container .featured-image{
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.button-learnmore{
+    background: #B8020D;
+    text-decoration: none;
+    color: inherit;
+    height: 40px;
+    width: 150px;
+    border-radius: 150px;
+    cursor: pointer;
+}
+
+.flex-right button{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+/* #### POPULAR #### */
+#popular-recipe{
+    padding-bottom: 75px;
+}
+
+#popular-recipe h2{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    margin-right: 25px;
+}
+
+.recipes{
+    display: flex;
+    width: 200px;
+}
+
+#city{
+    font-size: 15px;
+    color: #B8020D;
+    margin-top: 24px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+#food{
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.featured-image{
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.button-recipe{
+    background: #B8020D;
+    text-decoration: none;
+    color: inherit;
+    height: 30px;
+    width: 100px;
+    border-radius: 150px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* #### LATEST #### */
+#latest-recipe h2{
+    padding-left: 16px;
+}
+
+#latest-recipe p span{
+    font-size: 40px;
+	margin: 0 5px;
+	cursor: pointer;
+	color: white;
+	width: 30px;
+	height: 30px;
+    display: inline-block;
+	line-height: 19px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+#latest-recipe p{
+    float: right;
+    padding-right: 16px;
+}
+
+#latest-recipe p span:hover{
+    background: #EB1320;
+}
+
+#latest-recipe section{
+    width: 98%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+#latest-recipe section::-webkit-scrollbar{
+    display: none;
+}
+
+#latest-recipe section .latest-recipe{
+    min-width: 24%;
+    height: 90%;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:  0 20px  0 0;
+    border-radius: 20px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+
+picture{
+    width: 100%;
+    max-height: 350px;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+picture img{
+    width: 100%;
+}
+
+small{
+    color: #B8020D;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.detail{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+}
+
+.latest-recipe button{
+    margin-left: 18px;
+}
+
+
+
+/* #### AUTHOR #### */
+
+#author{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+#author h2{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+figure{
+    font-size: 12px;
+    text-align: center;
+}
+
+#author section{
+    align-self: center;
+}
+
+th,td{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+th{
+    text-align: right;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* #### FOOTER #### */
+footer {
+    padding: 30px;
+    color: white;
+    background-color: #B8020D;
+    text-align: center;
+    align-content: center;
+ }
+
+
+/* #### MEDIA QUERY #### */
+@media screen and (max-width: 1000px) {
+    #content{
+        margin: 0px 20px;
+        padding: 0;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    nav{
+        width: 100% ;
+        font-size: 14px;
+        height: 70px;
+        padding: 0;
+    }
+
+    nav li a{
+        min-width: 60px;
+        padding: 0px 10px;
+    }
+
+    .homepage{
+        margin-top: 75px;
+        margin-left: -200px;
+        padding-top: 100px;
+    }
+    
+    .homepage h1{
+        font-size: 50px;
+        text-align: left;
+        word-spacing: 4px;
+        line-height: 50px;
+    }
+
+    .homepage p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 75%;
+    }
+
+    .search-box{
+        margin-top: 25px;
+    }
+
+    .container .card-history{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container h2{
+        width: 100%;
+        left: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .recipes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-left{
+        padding-left: 10px;
+    }
+
+    .flex-left img{
+        width: 325px;
+        margin-top: 50px;
+    }
+
+    .flex-right{
+        font-size: 15px;
+    }
+
+    .flex-right p{
+        width: 100%;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+
+    .flex-right button{
+        margin: 20px 120px;
+    }
+
+    #latest-recipe{
+        width: 100%;
+        padding: 0;
+    }
+
+    #latest-recipe p{
+        width: 100%;   
+    }
+    #latest-recipe h2{
+        font-size: 25px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #latest-recipe p span{
+        font-size: 30px;
+    }
+    #latest-recipe section .latest-recipe {
+        min-width: 49%;
+        margin:  0 10px  0 0;
+    }
+    .detail{
+        font-size: 16px;
+    }
+
+    .latest-recipe button{
+        font-size: 12px;
+        height: 25px;
+    }
+
+    aside{
+        padding-left: 20px;
+    }
+
+    #author{
+        width: 100%;
+        flex-direction:column;
+        margin-top: 36px;
+    }
+
+    #author img{
+        width: 180px;
+        height: auto;
+    }
+
+    table{
+        margin-top: 10px;
+    }
+
+    th,td{
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+
+}
+
