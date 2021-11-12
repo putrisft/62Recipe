@@ -124,6 +124,11 @@ body{
     width: 400px;
     font-style: italic;
     letter-spacing: 1.5px;
+    padding-left: 24px;
+}
+
+button{
+    border: none;
 }
 
 button:hover{
@@ -363,6 +368,7 @@ small{
     margin: auto;
     margin-bottom: 30px;
     width: 50%;
+    margin-top: 1rem !important; 
 }
 
 #author h2{
